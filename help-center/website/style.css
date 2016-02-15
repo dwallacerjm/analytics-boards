@@ -1,0 +1,104 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1.left {
+	font-size: 24px;
+	color: #42bc4e;
+}
+
+h1.right {
+	color: #42bc4e;
+	font-size: 24px;
+	text-align: center;
+}
+
+h1.right-small {
+	color: #42bc4e;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1.right-top {
+	color: #42bc4e;
+	font-size: 32px;
+	text-align: center;
+}
+
+.top-question {
+	background-color: #42bc4e;
+	text-align: center;
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.top-question-small {
+	background-color: #fafafa;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding: 50px 0 0 0;
+}
+
+.main-question {
+	padding: 20px 0 0 10px;
+	height: 470px;
+	width: 100%;
+}
+
+.main-question-grey {
+	padding: 20px 0 0 10px;
+	height: 470px;
+	width: 100%;
+	background-color: #fafafa;
+}
+
+p {
+	font-size: 14px;
+	color: #828282;
+	font-size: 1.2rem;
+	font-weight: 300;
+	line-height: 1.6rem;
+}
+
+.question-description-left {
+	float: left;
+	max-width: 35%;
+}
+
+.question-description-right {
+	float: right;
+	max-width: 35%;
+}
+
+.main-stage-right {
+	float: right;
+	width: 60%;
+	padding: 10px 10px 0 0;
+}
+
+.main-stage-left {
+	float: left;
+	width: 60%;
+	padding: 10px 0 0 10px;
+}
+
+.mode-chart {
+	margin: 20px 0 20px 0;
+}
+
+.section.grey {
+	background-color: #fafafa;
+}
+
+.container {
+	margin: 20px 0 0 0!;
+}
+
+.testwrapper {
+	background: url("http://technical.ly/philly/wp-content/uploads/sites/2/2015/07/Artisan-e1437665272820.jpg") no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}

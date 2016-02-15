@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>RJMetrics Help Center Analytics</title>
+	<link href="style.css" type="text/css" rel="stylesheet"/>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+	<section class="header testwrapper">
+	</section>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default transparent navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">RJMetrics Help Center</a>
+			</div>
+			<div id="#navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's your question? <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#usage">How many of our clients use self-service?</a></li>
+							<li><a href="#engagement">How engaging is our content?</a></li>
+							<li><a href="#">Are users finding what they're searching for?</a></li>
+							<li><a href="#selfserve">Are users servicing themselves successfully?</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="usage" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">How many of our clients use self-service?</h1>
+					<p>This report gives us insight into the amount of traffic our help center is receiving over a given time period. To get a complete picture of this traffic, we look at the number of page views, sessions, and unique visitors. This report includes traffic to both our CloudBI and Pipeline Help Centers.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/ed5761cdaacf/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="engagement" class="top-question-small">
+		<h1 class="right-top">How engaging is our content?</h1>
+	</div>
+    <div class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<iframe src="https://modeanalytics.com/rjmetrics/reports/d96cb5fe708b/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+				</div>
+				<div class="col-md-4">
+					<h1 class="left">How long are users spending in the help center?</h1>
+					<p>When a user starts a new session in our help center, how long does that session typically last? It's a question that is actually more important than it may seem on the surface. For example, if we saw that the majority of sessions are lasting only 30 seconds, we could probably safely assume that users cannot adequately locate the information they are looking for in that amount of time, or are not particularly engaged with the content. We want to keep an eye on the distribution of session length over time to make sure it aligns with our expectations and is relatively predictable.</p>
+					<p>What the distribution of session length <strong>doesn't</strong> tell us is if these sessions are actually proving useful to the visitors. For example, a session could be 10 minutes long, which on the surface seems like a signifcantly long engagement, but the user could have spent the entire 10 minutes searching unsuccessfully for a peice of content. On the contrary, a session could have been 1 minute long, which seems like a short engagement, but the user could have quickly found the exact piece of content they needed.</p>
+					<p>It's best to complement this report with a report such as Self-Service Score to obtain a deeper understanding of how efficiently these visitors are serving themselves, and to ensure either measure is not drifting away from our expectations.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">What content attracts the most visitors?</h1>
+					<p>It's important to know what types of content our users are most compelled to check out. This gives us the insight we need to either improve (or get rid of) types of content that don't attract visitors, and to highlight or create more of content that does attract visitors.</p>
+					<p>What this <strong>doesn't</strong> tell us is how useful the visitors found the content. More granular engagent analyses such as examining the % of the article read, the articles rating, or even Self-Service Score help us better understand if visitors are finding the content useful.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/215d7413faf4/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<iframe src="https://modeanalytics.com/rjmetrics/reports/7066cbc37182//embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+				</div>
+				<div class="col-md-4">
+					<h1 class="left">Are visitors reading entire articles?</h1>
+					<p>Just because a piece of content has a lot of visitors doesn't necessarily mean the visitors are finding the content useful. For example, a peice of content could attract a large volume of visitors, but the large majority of these visitors could quickly realize the content is not useful for their needs, and click away and file a ticket instead.</p>
+					<p>To better understand if users are finding the content useful, it's important to look at various page engagement metrics, such as what proportion of the article the visitors are actually reading. To the left, you can see the 50 pieces of content with the most unique visitors, and their respective average page percentages read. Typically, a high average % read indicates that users are finding the content compelling enough to read the majority of the article.</p>
+					<p>However, just because an article has a low average % read doesn't necessarily mean users aren't finding the article useful. For example, it is entirely possible that visitors are getting all of the information they need at the very beginning of the article, and clicking away after that. On the contrary, it is possible that users are reading the entire articles hoping for information that never comes. Because of this, it's important to remember that this metric is simply a good indicator of content effectiveness, not the be all end all.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--This report makes the fucking browser slow if you have over 50 data points-->
+	<div class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">Do visitors reference content on multiple occasions?</h1>
+					<p>It's useful to know if users are treating certain articles as one-time question and answer resources or as common reference resources.</p>
+					<p>What this <strong>doesn't</strong> tell us is how useful the visitors found the content. More granular engagement analyses such as examining the % of the article read, the article's rating, or even Self-Service Score help us better understand if visitors are finding the content useful.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/50b3fb4f7a47/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<iframe src="https://modeanalytics.com/rjmetrics/reports/5cd31f5a2462/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+				</div>
+				<div class="col-md-4">
+					<h1 class="left">Which articles have the highest engagement?</h1>
+					<p>Engagement is naturally a vague term. As described earlier, engagement could mean how much of the article was read, how much time was spent on the page, or even simply how much traffic the page is getting. Because of this, it's often good to look at how content ranks in a number of different engagement criteria.</p>
+					<p>To the left, you can see a more detailed picture of engagement for a given article by looking at the average % of the article read, the average time spent on the page, and the total number of unique visitors. Ideally, we would want to see relatively large bubbles in the top right of the chart, which would signify that an article is not only attracting a lot of traffic, but also getting this traffic to have high levels of engagement with the content.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="engagement" class="top-question-small">
+		<h1 class="right-top">Help Center Search</h1>
+	</div>
+	<div id="selfserve" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">Are people using the search functionality?</h1>
+					<p>It's important to understand the paths visitors are taking to find the content they need. Are they searching for it via the search functionality? Are they navigating the table of contents? Knowing the path visitors are taking can help us focus our efforts on optimizing these paths.</p>
+					<p>Search functionality is an important thing. Not only does it provide the visitor easy access to finding the content they are looking for, it also allows us to peek inside the visitors brain to understand exactly what they are looking for.</p>
+					<p>But are visitors even using the search functionality? The chart to the right shows the percentage of sessions over a given time period in which the visitor used the search functionality in some capacity.</p>
+					<p>What this chart <strong>doesn't</strong> tell us is what these visitors were searching for, if the visitors who used the search functionality found relevant content, or if they used that relevant content to service themselves. The search functionality usage rate could also be artificially lowered due to visitors who had no intention of looking for content (e.g. visitors visiting the help center simply to login to Zendesk).</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/5b2a74c5c590/embed?run=now" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<a href="https://modeanalytics.com/rjmetrics/reports/82bac0b51f50/embed?run=now" class="mode-embed">Mode Analytics</a><script src="https://modeanalytics.com/embed/embed.js"></script>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h1 class="left">What are the top search terms?</h1>
+					<p>What are visitors searching for when they use the search functionality? As stated above, studying the most common search terms is extremely valuable in the sense that it gives us a direct path into the visitors brain and tells us exactly what they were looking for. Understanding which search terms are most common will allow us to prioritize and improve content for those areas.</p>
+					<p>In the chart to the left, the top 50 search terms are shown. Larger words represent a larger number of unique visitors searching for these terms.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="selfserve" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">Are people finding relevant content through search?</h1>
+					<p>When people search for content via the search functionality, are they finding relevant content? One way to get insight into this question is to look at the % of searches that result in the visitor clicking a search result article.</p>
+					<p>The chart to the right shows the total number of searches in a time interval, and the percentage of those searches that resulted in the visitor clicking into a search result article.</p>
+					<p>What this chart <strong>doesn't</strong> tell us is if the content that the visitor clicked into was successful in helping the visitor serve themself. That being said, this does give us a good idea of how effectively we are offering compelling content via search.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/8564880c4295/runs/fdbed1c08065/embed" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/14f3407dcf87/runs/b220ae3ab866/embed" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h1 class="left">Which search keywords have the best article click rates?</h1>
+					<p>Are there specific search terms that are resulting in high or low relevant content click rates? We can segment the previous report by search term to get insight here. If we see that certain search terms are yielding a very low relevant content click rate, we can focus our efforts on improving the relevancy of the content provided.</p>
+					<p>The chart to the left shows the top 50 most searched terms, and provides insight into how many total searches these terms have, and the percentage of these searches that resulted in a content click.</p>
+					<p>As stated previously, what this chart <strong>doesn't</strong> tell us is if the content that the visitor clicked into was successful in helping the visitor serve themself. That being said, this does give us a good idea of how effectively we are offering compelling content via search for specific search terms.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="engagement" class="top-question-small">
+		<h1 class="right-top">Are users serving themselves successfully?</h1>
+	</div>
+	<div id="selfserve" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="left">Self-Service Score</h1>
+					<p>At the end of the day, the big question remains: <em>are the visitors who are attempting to serve themselves using our help center actually able to serve themselves?</em> The best measure we have to determine this is the Self-Service Score. The Self-Service Score is defined as the number of unique visitors who attempted to serve themselves via help center content, divided by the number of unique users who filed a Zendesk support ticket. </p>
+					<p>This supplies us with a ratio detailing how many users attempt to serve themselves for every 1 user who files a Zendeks support ticket. For example, a Self-Service Score of 4 would mean that for every four users who attempt to serve themselves via help center content, one user files a Zendesk support ticket.</p>
+					<p>The chart to the right details the number of unique visitors to help center content, the number of unique users filing Zendesk support tickets, and the respective Self-Service Score within a given time interval. It also provides Self-Service Score benchmark for companies using Zendesk as their support platform (4.1).</p>
+				</div>
+				<div class="col-md-8">
+					<div class="mode-chart">
+						<iframe src="https://modeanalytics.com/rjmetrics/reports/3b640cddcd84/embed?run=now&amp;param_time_period=All Time&amp;param_time_interval=month" width="100%" height="500" frameborder="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+</html>
