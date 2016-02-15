@@ -1,0 +1,213 @@
+html, body {
+	font-size: 17px;
+}
+
+body {
+	font-family: "proxima-nova",Helvetica, Arial, sans-serif;
+	background-color: #f5f4f4;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+	background-color: #3a9645;
+	color: #ffffff;
+	padding: 1rem 0 0.6rem ;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #ffffff;
+}
+
+.navbar .navbar-brand {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+	opacity: 0.6;
+	font-size: 0.9rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
+	color: #ffffff;
+	opacity: 1;
+}
+
+.navbar-default .navbar-toggle {
+	border: 2px solid #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+
+/* STRUCTURE */
+
+section {
+	margin: 4rem 0;
+}
+
+.card {
+	background-color: #ffffff;
+	box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.1);
+	padding: 3rem;
+}
+
+.row + .row {
+	margin-top: 4rem;
+}
+
+.full-title > h3 {
+	margin-top: 0;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+	color: #4298d4;
+	font-weight: 600;
+	font-size: 1.75rem;
+	margin: 1.5rem 1rem;
+}
+
+h3 {
+	margin: 1.5rem 0;
+	font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3em;
+    text-transform: initial;
+}
+
+p {
+	font-size: 1rem;
+	color: #828282;
+	font-weight: 300;
+	line-height: 1.6rem;
+}
+
+.button-div {
+	font-size: 0.9rem;
+	color: #828282;
+	margin-top: 2rem;
+}
+
+.button-wrapper-plan {
+	margin-bottom: 1.5rem;
+}
+
+.button-div + .button-div {
+	margin-top: 1.5rem;
+}
+
+.btn-group {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn-label {
+	display: inline-block;
+	padding: 6px 1rem 6px 0;
+	vertical-align: top;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+.btn-blue {
+	background-color: #4298d4;
+	color: #ffffff;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	font-weight: 600;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+	background-color: #0474a0;
+	color: #ffffff;
+}
+
+.deep-dive {
+	margin-top: 2rem;
+}
+
+body.blocked .rj-blocked-overlay {
+    z-index: 8;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+body.blocked .rj-blocked-overlay:after { 
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-animation: rj-blocked-spin 5s infinite linear;
+  animation: rj-blocked-spin 5s infinite linear;
+  background-image: url("https://pipeline.rjmetrics.com/v2/images/rjm.svg");
+}
+
+
+@-webkit-keyframes rj-blocked-spin {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg); }
+
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(359deg);
+    transform: translate(-50%, -50%) rotate(359deg); } }
+
+@keyframes rj-blocked-spin {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg); }
+
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(359deg);
+    transform: translate(-50%, -50%) rotate(359deg); } }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 990px) {
+	.card {
+		padding: 1.5rem 1rem;
+	}
+
+	.row + .row {
+		margin-top: 0rem;
+	}
+
+	.mode-chart {
+		margin-bottom: 2rem;
+	}
+
+	.full-title > h3 {
+		margin-top: 1.5rem;
+	}
+
+	.button-wrapper {
+		margin-bottom: 2rem;
+	}
+
+	.button-wrapper-plan {
+		margin-bottom: 2rem;
+	}
+}
