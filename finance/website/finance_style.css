@@ -11,7 +11,8 @@ body {
 /* NAVBAR */
 
 .navbar {
-	background-color: #3a9645;
+	/* background-color: #3a9645; */
+	background-color: #21a2f2;
 	color: #ffffff;
 	padding: 1rem 0 0.6rem ;
 }
@@ -53,6 +54,13 @@ body {
 section {
 	margin: 4rem 0;
 }
+section#overview {
+	margin: 2rem 0;
+}
+
+#disclaimer {
+	margin: 0 0 -5rem 0;
+}
 
 .card {
 	background-color: #ffffff;
@@ -68,6 +76,9 @@ section {
 	margin-top: 0;
 }
 
+#overview-time-period-choice {
+	margin-right: 1rem;
+}
 
 /* TYPOGRAPHY */
 
@@ -137,52 +148,21 @@ button:focus {
 	color: #ffffff;
 }
 
+.btn-overview {
+	margin-bottom: 0.5rem;
+}
+
 .deep-dive {
 	margin-top: 2rem;
 }
 
-body.blocked .rj-blocked-overlay {
-    z-index: 8;
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+#cbi-all-prod-img {
+	margin-right: 0.5rem;
 }
 
-body.blocked .rj-blocked-overlay:after { 
-  content: '';
-  display: block;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-animation: rj-blocked-spin 5s infinite linear;
-  animation: rj-blocked-spin 5s infinite linear;
-  background-image: url("https://pipeline.rjmetrics.com/v2/images/rjm.svg");
+#pipeline-all-prod-img {
+	margin-left: 0.5rem;
 }
-
-
-@-webkit-keyframes rj-blocked-spin {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg); }
-
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(359deg);
-    transform: translate(-50%, -50%) rotate(359deg); } }
-
-@keyframes rj-blocked-spin {
-  0% {
-    -webkit-transform: translate(-50%, -50%) rotate(0deg);
-    transform: translate(-50%, -50%) rotate(0deg); }
-
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(359deg);
-    transform: translate(-50%, -50%) rotate(359deg); } }
 
 /* RESPONSIVE */
 
